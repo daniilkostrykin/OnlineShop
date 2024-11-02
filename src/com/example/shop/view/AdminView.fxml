@@ -1,0 +1,4 @@
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.shop.controller.AdminController">
+    <!-- Добавим элементы интерфейса -->
+</AnchorPane>

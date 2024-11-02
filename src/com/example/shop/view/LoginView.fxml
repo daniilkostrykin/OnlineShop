@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.shop.controller.LoginController"
+            prefHeight="300.0" prefWidth="400.0">
+    <Label text="Логин" layoutX="50" layoutY="50"/>
+    <TextField fx:id="usernameField" layoutX="120" layoutY="50"/>
+
+    <Label text="Пароль" layoutX="50" layoutY="100"/>
+    <PasswordField fx:id="passwordField" layoutX="120" layoutY="100"/>
+
+    <Button text="Войти" layoutX="120" layoutY="150" onAction="#handleLogin"/>
+    <Button text="Регистрация" layoutX="220" layoutY="150" onAction="#handleRegister"/>
+</AnchorPane>
