@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane prefHeight="679.0" prefWidth="1171.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shop.controller.LoginController">
+<AnchorPane prefHeight="679.0" prefWidth="1171.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shop.controller.RegisterController">
     <children>
         <GridPane alignment="CENTER" hgap="10" layoutX="363.0" layoutY="200.0" prefHeight="290.0" prefWidth="422.0" vgap="20">
             <padding><Insets bottom="20" left="20" right="20" top="20" /></padding>
@@ -30,10 +30,11 @@
             <TextField fx:id="usernameField" style="-fx-background-radius: 5px; -fx-border-color: #ddd; -fx-border-width: 1px; -fx-padding: 10px;" GridPane.columnIndex="1" GridPane.rowIndex="0" />
 
             <Label style="-fx-font-size: 16px; -fx-text-fill: #333;" text="Пароль" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-            <PasswordField fx:id="passwordField" prefHeight="39.0" prefWidth="240.0" style="-fx-background-radius: 5px; -fx-border-color: #ddd; -fx-border-width: 1px; -fx-padding: 10px;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <PasswordField fx:id="passwordField" style="-fx-background-radius: 5px; -fx-border-color: #ddd; -fx-border-width: 1px; -fx-padding: 10px;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
-            <Button onAction="#handleLogin" prefHeight="37.0" prefWidth="194.0" style="-fx-background-color: #2196F3; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Войти" GridPane.columnIndex="0" GridPane.rowIndex="2" />
-            <Button onAction="#handleOpenRegister" prefHeight="37.0" prefWidth="195.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Регистрация" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button onAction="#handleRegister" style="-fx-background-color: #2196F3; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Зарегистрироваться"
+                    GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button onAction="#handleBack" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Назад" GridPane.columnIndex="0" GridPane.rowIndex="2" />
 
         </GridPane>
     </children>
