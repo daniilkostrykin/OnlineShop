@@ -33,7 +33,7 @@
             <PasswordField fx:id="passwordField" prefHeight="39.0" prefWidth="240.0" style="-fx-background-radius: 5px; -fx-border-color: #ddd; -fx-border-width: 1px; -fx-padding: 10px;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
             <Button onAction="#handleLogin" prefHeight="37.0" prefWidth="194.0" style="-fx-background-color: #2196F3; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Войти" GridPane.columnIndex="0" GridPane.rowIndex="2" />
-            <Button onAction="#handleOpenRegister" prefHeight="37.0" prefWidth="195.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Регистрация" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button onAction="#handleOpenRegister" prefHeight="37.0" prefWidth="195.0" style="-fx-background-color: #4d4de2; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Регистрация" GridPane.columnIndex="1" GridPane.rowIndex="2" />
 
         </GridPane>
     </children>

@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce25308-0c9d-48b6-a909-b8a80a52a07c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/shop/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/shop/view/RegisterView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/shop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/shop/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/shop/controller/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/shop/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/shop/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/shop/view/AdminView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/shop/view/AdminView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/shop/view/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/shop/view/LoginView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/shop/view/StorekeeperView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/shop/view/StorekeeperView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/shop/view/RegisterView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/shop/view/RegisterView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +101,8 @@
       <updated>1730568255743</updated>
       <workItem from="1730568256831" duration="7873000" />
       <workItem from="1730660540918" duration="1152000" />
-      <workItem from="1730665025873" duration="6001000" />
+      <workItem from="1730665025873" duration="6645000" />
+      <workItem from="1730672197431" duration="696000" />
     </task>
     <servers />
   </component>

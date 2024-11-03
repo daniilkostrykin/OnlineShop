@@ -39,7 +39,7 @@ public class LoginController {
                 stage.setMaxWidth(1171);
                 stage.setMaxHeight(679);
                 stage.setScene(new Scene(root));
-                stage.setTitle("Админ панель");
+                stage.setTitle("Панель администратора");
                 stage.show();
 
             } catch (IOException e) {

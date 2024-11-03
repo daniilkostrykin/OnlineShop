@@ -32,9 +32,8 @@
             <Label style="-fx-font-size: 16px; -fx-text-fill: #333;" text="Пароль" GridPane.columnIndex="0" GridPane.rowIndex="1" />
             <PasswordField fx:id="passwordField" style="-fx-background-radius: 5px; -fx-border-color: #ddd; -fx-border-width: 1px; -fx-padding: 10px;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
-            <Button onAction="#handleRegister" style="-fx-background-color: #2196F3; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Зарегистрироваться"
-                    GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button onAction="#handleBack" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Назад" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Button onAction="#handleRegister" style="-fx-background-color: #2196F3; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Зарегистрироваться" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button onAction="#handleBack" style="-fx-background-color: #4d4de2; -fx-text-fill: white; -fx-padding: 10px 20px; -fx-background-radius: 5px;" text="Назад" GridPane.columnIndex="0" GridPane.rowIndex="2" />
 
         </GridPane>
     </children>
